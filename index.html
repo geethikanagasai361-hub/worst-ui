@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OmniSynergy UltraPortal 3000™ - The Next-Gen Enterprise Solution</title>
+  <!-- Google Fonts: A glorious mismatch of fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,400;0,700;1,700&family=Press+Start+2P&family=Cinzel:wght@700&family=Impact&family=Courier+Prime:ital,wght@0,400;0,700;1,400&family=Creepster&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="nightmare-theme">
+
+  <!-- Top Urgent Marquee 1 -->
+  <div class="marquee-strip marquee-strip-top">
+    <div class="marquee-content">
+      ⚠️ WARNING: DO NOT CLICK TOO HARD. SERVER TEMPERATURE AT 104°C ⚠️ SPECIAL OFFER: 0% OFF EVERYTHING TODAY ONLY! ⚠️ UNREAD SYSTEM ALERTS: 9,412 ⚠️ PLEASE ENSURE YOUR MOUSE IS CHARGED TO AT LEAST 88% ⚠️
+    </div>
+  </div>
+
+  <!-- Header Chaos Bar -->
+  <header class="chaos-header">
+    <div class="brand-box">
+      <div class="spinning-logo" id="logoWidget" title="Warning: Spinning may cause existential dread">🌀</div>
+      <div class="brand-text">
+        <h1 class="brand-title">OmniSynergy <span class="badge-v9">UltraPortal 3000™</span></h1>
+        <p class="brand-subtitle">The World's Preeminent Synergistic Cloud Convergence Disruption Paradigm</p>
+      </div>
+    </div>
+
+    <!-- Live Telemetry Badges -->
+    <div class="telemetry-bar">
+      <div class="tele-badge badge-red blink-fast">🔥 CPU: 99.4% (Hot!)</div>
+      <div class="tele-badge badge-neon" id="patienceCounter">🧠 Patience: 19%</div>
+      <div class="tele-badge badge-yellow" id="usersBathroom">🚽 Users in your area: 7</div>
+      <button class="sound-toggle-btn" id="soundToggleBtn" title="Sound is good for your soul">
+        🔊 AUDIO: <span id="soundStatusText">ENABLED</span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Annoying Shuffling Navbar -->
+  <nav class="shuffling-nav" id="mainNav">
+    <span class="nav-hint-tag">← QUICK NAV (Auto-reorganizing for maximum synergy)</span>
+    <ul class="nav-list" id="navList">
+      <li class="nav-item"><a href="#home" class="nav-link" data-index="0">🏠 Home-ish</a></li>
+      <li class="nav-item"><a href="#claim" class="nav-link active" data-index="1">🎁 Claim $0.00 Voucher</a></li>
+      <li class="nav-item"><a href="#why" class="nav-link" data-index="2">❓ Why Does This Exist?</a></li>
+      <li class="nav-item"><a href="#privacy" class="nav-link" data-index="3">🕵️ Surveillance Policy</a></li>
+      <li class="nav-item"><a href="#blank" class="nav-link" data-index="4">💥 DO NOT CLICK</a></li>
+      <li class="nav-item nested-dropdown-container">
+        <button class="nav-link dropdown-trigger" id="nestedNavTrigger">📂 Deep Menus ▾</button>
+        <div class="nested-menu-layer-1" id="nestedMenuLayer1">
+          <div class="menu-item-nested">Subroutine Alpha
+            <div class="nested-menu-layer-2">
+              <div class="menu-item-nested">Legacy Settings
+                <div class="nested-menu-layer-3">
+                  <div class="menu-item-nested">Emergency Navigation
+                    <div class="nested-menu-layer-4">
+                      <a href="#jumpStep3" class="deep-link" id="deepJumpLink">👉 Jump to Step 3 (Maybe)</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="menu-item-nested">Cancel Action</div>
+          <div class="menu-item-nested">Refresh Screen (Takes 30s)</div>
+        </div>
+      </li>
+    </ul>
+  </nav>
+
+  <!-- Secondary Counter Marquee -->
+  <div class="marquee-strip marquee-strip-sub">
+    <div class="marquee-content-reverse">
+      ⚡ CURRENT CURSOR SPEED: <span id="cursorSpeedDisplay">0 px/s</span> ⚡ TOTAL CLICKS WASTED: <span id="clickCounterDisplay">0</span> ⚡ COOKIES COLLECTED: 842 TASTY CRUMBS ⚡
+    </div>
+  </div>
+
+  <!-- Main Content Layout -->
+  <main class="main-chaos-container">
+    
+    <!-- Left Distraction Sidebar -->
+    <aside class="sidebar-left">
+      <div class="panel-box ad-panel">
+        <div class="ad-tag">SPONSORED BY THE COUNCIL OF CONFUSION</div>
+        <div class="ad-inner blink-slow">
+          <h3>⚡ DOWNLOAD MORE RAM! ⚡</h3>
+          <p>Instantly boost your computer by 1,000,000% with virtual cloud DDR9 memory!</p>
+          <button class="ad-btn runaway-btn" id="ramDownloadBtn">DOWNLOAD 128GB NOW!</button>
+        </div>
+      </div>
+
+      <div class="panel-box widget-satisfaction">
+        <h4>Live Satisfaction Survey</h4>
+        <p class="tiny-text">How happy are you with the current page alignment?</p>
+        <div class="star-rating-reverse" id="starRating">
+          <span class="star" data-val="1" title="Utter Despair">⭐</span>
+          <span class="star" data-val="2" title="Severe Melancholy">⭐</span>
+          <span class="star" data-val="3" title="Mild Discomfort">⭐</span>
+          <span class="star" data-val="4" title="Confused Apathy">⭐</span>
+          <span class="star" data-val="5" title="Transcendence">⭐</span>
+        </div>
+        <div id="surveyFeedback" class="survey-feedback">Rate to continue breathing.</div>
+      </div>
+
+      <div class="panel-box tip-box">
+        <h4>💡 Synergistic Tip #<span id="tipNumber">402</span></h4>
+        <p id="tipText">If the page freezes, gently blow into your USB port and try reciting the alphabet backwards.</p>
+        <button class="tiny-btn" id="nextTipBtn">Get Worse Tip</button>
+      </div>
+    </aside>
+
+    <!-- Central Gauntlet Area: The Multi-Step Registration / Claim Form -->
+    <section class="central-stage">
+      
+      <!-- Stage Header with Confusing Progress Bar -->
+      <div class="stage-header-card">
+        <div class="announcement-ribbon">🏆 PRIZE GAUNTLET: MANDATORY MANDATE</div>
+        <h2 class="stage-title">STEP <span id="stepNumberDisplay">1</span> OF <span id="totalStepsDisplay">5</span>: USER SYNCHRONIZATION</h2>
+        <p class="stage-sub">Please fill out all mandatory optional fields with utmost imprecision.</p>
+        
+        <!-- Misleading Progress Bar -->
+        <div class="progress-container">
+          <div class="progress-bar-glitch" id="progressBar" style="width: 14%;">
+            <span id="progressText">14% (Stalled)</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Main Interactive Form Card -->
+      <div class="form-gauntlet-card" id="formCard">
+
+        <!-- ==================== STEP 1: IDENTITY & GEOGRAPHY ==================== -->
+        <div class="form-step active" id="formStep1" data-step="1">
+          <h3 class="step-header">Phase I: Reverse Identification Verification</h3>
+          <p class="micro-text">Note: All keystrokes may be mirrored into the fourth dimension for compliance purposes.</p>
+
+          <div class="field-grid">
+            <div class="form-group skewed-left">
+              <label for="inputLastName">Last Legal Name (Enter FIRST):</label>
+              <input type="text" id="inputLastName" tabindex="2" placeholder="e.g. von Smith-Jones" class="chaos-input" autocomplete="off">
+              <span class="useless-hint">⚠️ Hint: Avoid consonants if born on a Tuesday</span>
+            </div>
+
+            <div class="form-group skewed-right">
+              <label for="inputFirstName">First Name (Enter SECOND, in ALL CAPS):</label>
+              <input type="text" id="inputFirstName" tabindex="1" placeholder="e.g. BARTHOLOMEW" class="chaos-input" autocomplete="off">
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="salutationSelect">Salutation / Sovereign Title:</label>
+            <select id="salutationSelect" class="chaos-select" tabindex="3">
+              <option value="" disabled selected>-- Select an Ambiguous Honour --</option>
+              <option value="archduke">Grand Archduke of Spreadsheet Optimization</option>
+              <option value="sovereign">Sovereign Citizen of Localhost</option>
+              <option value="reverend">Reverend Dr. Captain</option>
+              <option value="none">Undefined / Void Null</option>
+              <option value="mr">Mr. (Deprecated)</option>
+              <option value="ms">Ms. (Pending Approval)</option>
+              <option value="alien">Extraterrestrial Observer (Level 4)</option>
+              <option value="ai">Sentient Toaster</option>
+              <option value="error">Error 404: Salutation Not Found</option>
+            </select>
+          </div>
+
+          <div class="field-grid">
+            <div class="form-group">
+              <label for="ageSlider">Current Age in Dog Years (Use Slider): <span id="ageDisplay" class="value-bubble">42.7</span></label>
+              <input type="range" id="ageSlider" min="-12" max="180" step="3.7" value="42.7" class="chaos-slider">
+              <div class="slider-ticks"><span>-12</span><span>0</span><span>42.7</span><span>100</span><span>180</span></div>
+            </div>
+
+            <div class="form-group">
+              <label for="favHex">Your Lucky Hex Color Code (Must be enthusiastic):</label>
+              <div class="hex-input-wrap">
+                <input type="color" id="hexPicker" value="#ff007f" class="color-picker-input">
+                <input type="text" id="favHex" value="#ff007f" placeholder="#XXXXXX" class="chaos-input">
+              </div>
+              <span class="micro-text" id="hexFeedback">Color status: Moderately aggressive</span>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="petMaiden">Mother's First Pet's Maiden Surname:</label>
+            <input type="text" id="petMaiden" placeholder="e.g. Fluffy McBarkinson" class="chaos-input" autocomplete="off">
+          </div>
+        </div>
+
+        <!-- ==================== STEP 2: CREDENTIALS & SENSORY INPUT ==================== -->
+        <div class="form-step" id="formStep2" data-step="2">
+          <h3 class="step-header">Phase II: Biometric & Auditory Security Protocols</h3>
+          <p class="micro-text">Warning: Passwords must conform to Rule 37-B of the Galactic Cipher Association.</p>
+
+          <div class="form-group">
+            <label for="passwordInput">Complex Algorithmic Password:</label>
+            <input type="password" id="passwordInput" class="chaos-input" placeholder="Good luck..." autocomplete="new-password">
+            
+            <!-- Live Ludicrous Password Checklist -->
+            <div class="password-rules-card" id="pwRulesCard">
+              <div class="rule-item" id="ruleLen">❌ At least 11.5 characters long</div>
+              <div class="rule-item" id="ruleRoman">❌ Must contain a valid Roman Numeral (I, V, X, L, C, M)</div>
+              <div class="rule-item" id="ruleChem">❌ Must contain a periodic element symbol (e.g. He, Fe, Au)</div>
+              <div class="rule-item" id="ruleEmoji">❌ Must contain an emoji depicting mild anxiety (e.g. 😰, 😬, 🫠)</div>
+              <div class="rule-item" id="ruleVowel">❌ No vowels allowed in even-numbered positions</div>
+            </div>
+            <div class="password-meter-wrap">
+              <div class="password-meter-fill" id="pwMeterFill"></div>
+              <span id="pwMeterLabel" class="pw-meter-text">STRENGTH: CATASTROPHICALLY WEAK</span>
+            </div>
+          </div>
+
+          <!-- Volume Slider Password -->
+          <div class="form-group sensory-group">
+            <label for="volumeSlider">Auditory Decibel Password Calibration: <span id="volDisplay" class="value-bubble">50 dB</span></label>
+            <p class="micro-text">Please slide this to your exact speaking pitch to authorize your vocal chords.</p>
+            <input type="range" id="volumeSlider" min="0" max="120" step="1" value="50" class="chaos-slider-loud">
+            <button type="button" class="tiny-btn" id="playToneBtn">🔊 Test Acoustic Resonator</button>
+          </div>
+
+          <!-- Phone Number Slider from 1,000,000,000 to 9,999,999,999 -->
+          <div class="form-group">
+            <label for="phoneSlider">Phone Number (Selected via Single High-Precision Slider):</label>
+            <div class="phone-slider-box">
+              <input type="range" id="phoneSlider" min="1000000000" max="9999999999" step="1" value="5551234567" class="chaos-slider">
+              <div class="phone-display-box" id="phoneDisplay">Selected: (555) 123-4567</div>
+            </div>
+            <span class="micro-text">Slide carefully! Each millimeter corresponds to approximately 84,000 phone numbers.</span>
+          </div>
+        </div>
+
+        <!-- ==================== STEP 3: CAPTCHA OF EXISTENTIAL AGONY ==================== -->
+        <div class="form-step" id="formStep3" data-step="3">
+          <h3 class="step-header">Phase III: Cognitive & Temporal Turing Certification</h3>
+          <p class="micro-text">Prove you are neither a human nor a robot, but an ethereal energy being.</p>
+
+          <!-- Precision Hold Test -->
+          <div class="captcha-box">
+            <h4>Challenge 1: Temporal Hold Capacitor</h4>
+            <p>Press and hold the button below for <strong>PRECISELY 3.00 SECONDS</strong>.<br>
+            Releasing before 2.95s or after 3.05s will trigger immediate disqualification.</p>
+            
+            <div class="hold-timer-display" id="holdTimerDisplay">0.00s</div>
+            <button type="button" class="hold-button" id="holdTestBtn">HOLD DOWN TO PROVE SENTIENCE</button>
+            <div class="hold-status" id="holdStatus">Status: Awaiting physical touch</div>
+          </div>
+
+          <!-- Absurd Tile Grid -->
+          <div class="captcha-box" style="margin-top: 15px;">
+            <h4>Challenge 2: Existential Vision Test</h4>
+            <p>Select all squares that contain a <strong>traffic light contemplating its mortality</strong>:</p>
+            <div class="captcha-grid" id="captchaGrid">
+              <div class="captcha-tile" data-index="1">🚥<span class="tile-caption">Just Red</span></div>
+              <div class="captcha-tile" data-index="2">🚦<span class="tile-caption">Sighing</span></div>
+              <div class="captcha-tile" data-index="3">💡<span class="tile-caption">A Lamp</span></div>
+              <div class="captcha-tile" data-index="4">🛑<span class="tile-caption">Stop Sign</span></div>
+              <div class="captcha-tile" data-index="5">🚦<span class="tile-caption">Existential Dread</span></div>
+              <div class="captcha-tile" data-index="6">🚧<span class="tile-caption">Construction</span></div>
+              <div class="captcha-tile" data-index="7">🚏<span class="tile-caption">Bus Stop</span></div>
+              <div class="captcha-tile" data-index="8">🚦<span class="tile-caption">Yellow blink</span></div>
+              <div class="captcha-tile" data-index="9">🌫️<span class="tile-caption">Pure Void</span></div>
+            </div>
+            <div class="tile-status" id="captchaTileStatus">Selected: 0 tiles. Minimum required: Between 1 and 9.</div>
+          </div>
+        </div>
+
+        <!-- ==================== STEP 4: TERMS & INVERTED SCROLL TORTURE ==================== -->
+        <div class="form-step" id="formStep4" data-step="4">
+          <h3 class="step-header">Phase IV: End User Subjugation & Consent Binding</h3>
+          <p class="micro-text">By viewing this box you agree to assign all past and future reincarnations to OmniSynergy LLC.</p>
+
+          <label>Mandatory Inverted Terms of Surrender (Scroll to end to unlock):</label>
+          <div class="inverted-terms-container" id="invertedTermsBox">
+            <div class="terms-inner-text">
+              <p><strong>CLAUSE 1.0 - PREAMBLE OF SURRENDER:</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. The user acknowledges that scrolling this box operates under reverse gravitational mechanics.</p>
+              <p><strong>CLAUSE 2.4 - TELEMETRY & AUDIT:</strong> We reserve the right to monitor your keystroke cadence, your blinking frequency, and whether you sigh while using this application.</p>
+              <p><strong>CLAUSE 3.8 - WAIVER OF SANITY:</strong> You hereby hold OmniSynergy harmless against sudden hair loss, mild optical twitching, or the irresistible urge to throw your laptop out an open window.</p>
+              <p><strong>CLAUSE 4.19 - INVERTED SCROLL CONFIRMATION:</strong> If you are reading this sentence, congratulations on mastering reverse-mouse mechanics. Please continue to scroll upwards to reach the bottom.</p>
+              <p><strong>CLAUSE 99.9 - THE FINAL PARAGRAPH:</strong> By clicking any button on this website, you certify that you have read all 48,000 words of this agreement in the presence of a licensed notary and two golden retrievers.</p>
+              <div class="terms-end-marker" id="termsEndMarker">--- END OF SURRENDER AGREEMENT ---</div>
+            </div>
+          </div>
+          <div class="scroll-status" id="scrollStatus">Scroll Progress: 0% (Must read 100% to proceed)</div>
+
+          <!-- Double Negative Checkboxes -->
+          <div class="checkbox-gauntlet">
+            <div class="checkbox-row">
+              <input type="checkbox" id="negCheck1" class="chaos-checkbox">
+              <label for="negCheck1">I do not object to not declining the non-optional marketing transmissions from our 1,482 overseas affiliates.</label>
+            </div>
+            <div class="checkbox-row">
+              <input type="checkbox" id="negCheck2" class="chaos-checkbox">
+              <label for="negCheck2">Uncheck this box if you would not prefer to not be excluded from our daily 3:00 AM fax notifications.</label>
+            </div>
+            <div class="checkbox-row">
+              <input type="checkbox" id="negCheck3" class="chaos-checkbox">
+              <label for="negCheck3">I solemnly swear that my favorite font is Comic Sans MS and that I find this interface ergonomic.</label>
+            </div>
+          </div>
+        </div>
+
+        <!-- ==================== STEP 5: REVIEW & THE FINAL RESETS ==================== -->
+        <div class="form-step" id="formStep5" data-step="5">
+          <h3 class="step-header">Phase V: Final Review & Synthesis Gauntlet</h3>
+          <p class="micro-text">Review your submitted parameters before the cosmic ledger locks them forever.</p>
+
+          <div class="summary-review-card" id="summaryReviewBox">
+            <div class="review-row"><span>Legal Identity:</span> <strong id="sumName">[Unregistered Entity]</strong></div>
+            <div class="review-row"><span>Honorific:</span> <strong id="sumTitle">[None]</strong></div>
+            <div class="review-row"><span>Dog Years:</span> <strong id="sumAge">[Unknown]</strong></div>
+            <div class="review-row"><span>Lucky Hex:</span> <strong id="sumHex">[#??????]</strong></div>
+            <div class="review-row"><span>Vocal Pitch:</span> <strong id="sumVol">[0 dB]</strong></div>
+            <div class="review-row"><span>Phone Coordinate:</span> <strong id="sumPhone">[None]</strong></div>
+            <div class="review-row"><span>Humanity Status:</span> <strong>Marginally Plausible</strong></div>
+          </div>
+
+          <div class="warning-callout">
+            ⚠️ NOTICE: Clicking "Finalize" will send your data through 14 proxy servers in Antarctica. This process is irreversible and highly unstable.
+          </div>
+        </div>
+
+        <!-- ==================== BUTTON CONTROLS WITH CONFUSING BEHAVIORS ==================== -->
+        <div class="form-nav-controls" id="formControls">
+          
+          <!-- Obstructive Floating Tooltip Element that covers buttons -->
+          <div class="trolling-tooltip" id="trollingTooltip">
+            ℹ️ This button will either advance your form, clear your life savings, or open an invisible popup!
+          </div>
+
+          <!-- Misleading Back Button -->
+          <button type="button" class="btn btn-secondary" id="btnBack">
+            ↩️ Proceed Backwards?
+          </button>
+
+          <!-- Swap/Multi-state Action Buttons -->
+          <div class="forward-button-wrapper" id="forwardBtnWrap">
+            <!-- Confusing Next / Do It / Proceed Button -->
+            <button type="button" class="btn btn-primary" id="btnNext">
+              Next Step (Maybe) ➔
+            </button>
+            
+            <!-- Visually Identical Deceptive Reset Button -->
+            <button type="button" class="btn btn-primary btn-deceptive" id="btnDeceptive">
+              Continue & Save ✔️
+            </button>
+          </div>
+
+          <!-- Multi-Click Required Button -->
+          <button type="button" class="btn btn-warning" id="btnMultiClick" style="display: none;">
+            Tap 3 Times Quickly (<span id="clicksLeft">3</span>)
+          </button>
+
+          <!-- Runaway Final Submit Button (shown on step 5) -->
+          <button type="button" class="btn btn-danger runaway-btn" id="btnFinalSubmit" style="display: none;">
+            🚀 DO IT (FINALIZE VOUCHER)
+          </button>
+        </div>
+
+        <!-- Hilarious Error Display Container -->
+        <div class="error-banner-box" id="errorBanner" style="display: none;">
+          <div class="error-icon">💥</div>
+          <div class="error-details">
+            <h4 id="errorTitle">Error 847: We Can't Tell You What Happened</h4>
+            <p id="errorMessage">Something isn't quite right. Please try something else.</p>
+          </div>
+          <button class="tiny-btn" id="dismissErrorBtn">Acknowledge Sufferings</button>
+        </div>
+
+      </div> <!-- End Form Gauntlet Card -->
+
+    </section>
+
+    <!-- Right Distraction & Ad Sidebar -->
+    <aside class="sidebar-right">
+      <div class="panel-box ticker-panel">
+        <h4>📈 Real-Time Confusion Index</h4>
+        <div class="stock-ticker">
+          <div class="ticker-item green">▲ WTFS +42.1%</div>
+          <div class="ticker-item red">▼ UX -99.8%</div>
+          <div class="ticker-item yellow">▲ FACEPALM +808%</div>
+          <div class="ticker-item red">▼ SANITY -100%</div>
+        </div>
+      </div>
+
+      <div class="panel-box fake-chat-panel">
+        <div class="chat-header">
+          <span class="clippy-avatar">📎</span>
+          <strong>Clippy-3000 (AI Anti-Assistant)</strong>
+        </div>
+        <div class="chat-messages" id="chatMessages">
+          <div class="chat-bubble bot">It looks like you're trying to fill out a simple form. Would you like me to make it considerably harder?</div>
+        </div>
+        <div class="chat-input-row">
+          <input type="text" id="chatInput" placeholder="Ask for unhelpful advice..." class="chaos-input-sm">
+          <button class="tiny-btn" id="sendChatBtn">Spam</button>
+        </div>
+      </div>
+
+      <div class="panel-box badge-collection">
+        <h4>Verified Un-Security</h4>
+        <div class="badges-row">
+          <span class="cert-badge">🛡️ Not SSL</span>
+          <span class="cert-badge">🔒 0-Bit Encryption</span>
+          <span class="cert-badge">🏅 ISO -9001</span>
+          <span class="cert-badge">🍪 100% Tracking</span>
+        </div>
+      </div>
+    </aside>
+
+  </main>
+
+  <!-- ==================== POPUPS & INTERRUPTION MODALS ==================== -->
+
+  <!-- 1. Mandatory Cookie Consent Hell (Inescapable Bottom Sheet) -->
+  <div class="cookie-banner-overlay" id="cookieBanner">
+    <div class="cookie-inner-card">
+      <div class="cookie-header">
+        <span class="cookie-icon">🍪</span>
+        <h3>MANDATORY BROWSER COOKIE EXTRACTION NOTIFICATION</h3>
+      </div>
+      <p class="cookie-text">
+        We use 4,912 categories of cookies, including psychic behavior predictors, auditory eavesdropping beacons, and crumb-based telemetry to enhance your suffering. Under the Galactic Data Secrecy Ordinance, you have the theoretical right to refuse, though doing so violates our Terms of Existence.
+      </p>
+
+      <div class="cookie-tabs">
+        <button class="cookie-tab-btn active" data-tab="c-tab1">Strictly Harassing</button>
+        <button class="cookie-tab-btn" data-tab="c-tab2">Psychic Ads</button>
+        <button class="cookie-tab-btn" data-tab="c-tab3">Third-Party Spies</button>
+      </div>
+
+      <div class="cookie-tab-content" id="cookieTabContent">
+        <label><input type="checkbox" checked disabled> Mandatory Surveillance (Non-negotiable)</label><br>
+        <label><input type="checkbox" checked id="ckRandom1"> Share cursor heatmaps with extraterrestrial researchers</label><br>
+        <label><input type="checkbox" checked id="ckRandom2"> Allow background bitcoin mining to keep server warm</label>
+      </div>
+
+      <div class="cookie-btn-row">
+        <button class="btn btn-secondary disabled-look" id="btnRejectCookies" title="Disabled due to corporate regulations">Reject All (Requires Credit Card)</button>
+        <button class="btn btn-warning" id="btnCustomizeCookies">Customize 500 Partners ▾</button>
+        <button class="btn btn-primary" id="btnAcceptCookies">Surrender All Cookies & Proceed</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- 2. "Are You Sure?" Ridiculous Confirmation Modal -->
+  <div class="modal-overlay" id="confirmModal" style="display: none;">
+    <div class="modal-card">
+      <div class="modal-header">⚠️ CONFIRMATION CHECKPOINT LEVEL 1</div>
+      <p class="modal-body" id="confirmModalText">
+        Are you genuinely, unequivocally certain you intended to click that button?
+      </p>
+      <div class="modal-actions">
+        <button class="btn btn-primary" id="modalBtnYes">Affirmative Positive</button>
+        <button class="btn btn-secondary" id="modalBtnNo">Cancel-ish</button>
+        <button class="btn btn-warning" id="modalBtnMaybe">Perhaps Later</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- 3. Fake Slow Loading Screen with Recalculating Progress -->
+  <div class="modal-overlay" id="loadingModal" style="display: none;">
+    <div class="modal-card loading-card">
+      <div class="loading-spinner">⌛</div>
+      <h3 id="loadingModalTitle">Optimizing Synergistic Data Trajectories...</h3>
+      <p id="loadingSubtext">Please do not blink, breathe, or turn off your monitor.</p>
+      <div class="progress-container">
+        <div class="progress-bar-loading" id="modalProgressBar">
+          <span id="modalProgressPercent">0%</span>
+        </div>
+      </div>
+      <p class="loading-status-ticker" id="loadingStatusTicker">Initializing hypercubes...</p>
+    </div>
+  </div>
+
+  <!-- 4. Spontaneous Random Promotional / Survey Pop-up -->
+  <div class="flyout-promo" id="flyoutPromo" style="display: none;">
+    <button class="flyout-close-runaway" id="flyoutCloseBtn" title="Try closing me if you dare">✖</button>
+    <h4>🎉 WINNER ALERT! 🎉</h4>
+    <p>You have been randomly selected to participate in a 45-minute mandatory survey regarding paperclip ergonomics!</p>
+    <button class="btn btn-primary btn-sm" id="flyoutAcceptBtn">CLAIM MY SURVEY NOW!</button>
+    <a href="#" class="tiny-link" id="flyoutDismissLink">No thanks, I dislike free surveys</a>
+  </div>
+
+  <!-- 5. Floating System Toast Stream Container -->
+  <div class="toast-container" id="toastContainer"></div>
+
+  <!-- ==================== FOOTER WITH HIDDEN ESCAPE HATCH ==================== -->
+  <footer class="chaos-footer">
+    <div class="footer-links">
+      <a href="#void" class="f-link">Terms of Dismay</a> |
+      <a href="#void" class="f-link">Sitemap (Broken)</a> |
+      <a href="#void" class="f-link">Careers (Unpaid)</a> |
+      <a href="#void" class="f-link">Contact (Don't)</a> |
+      <a href="#void" class="f-link">Help (No)</a>
+    </div>
+    
+    <div class="footer-legal">
+      <p>© 2026 OmniSynergy UltraPortal LLC. All rights violently reserved. No portion of this agony may be reproduced without written permission from an ancient sorcerer.</p>
+      
+      <!-- HIDDEN ESCAPE HATCH: A tiny discrete interactive dot in the legal text! -->
+      <span class="escape-hatch-wrapper">
+        <span>Patented in 184 countries. </span>
+        <button class="secret-escape-hatch" id="secretEscapeHatch" title="???">·</button>
+      </span>
+    </div>
+  </footer>
+
+  <!-- ==================== ZEN MODE MODAL (ESCAPE HATCH REWARD) ==================== -->
+  <div class="zen-modal-overlay" id="zenModal" style="display: none;">
+    <div class="zen-card">
+      <div class="zen-icon">🕊️</div>
+      <h2 class="zen-title">Sanity Restored!</h2>
+      <p class="zen-subtitle">You discovered the secret Escape Hatch. The nightmare has been paused.</p>
+      
+      <div class="zen-stats-card">
+        <h3>📊 Your UX Nightmare Trauma Report</h3>
+        <div class="zen-stats-grid">
+          <div class="stat-box">
+            <span class="stat-num" id="statClicks">0</span>
+            <span class="stat-label">Clicks Wasted</span>
+          </div>
+          <div class="stat-box">
+            <span class="stat-num" id="statPopups">0</span>
+            <span class="stat-label">Popups Endured</span>
+          </div>
+          <div class="stat-box">
+            <span class="stat-num" id="statDodges">0</span>
+            <span class="stat-label">Runaway Button Chases</span>
+          </div>
+          <div class="stat-box">
+            <span class="stat-num" id="statErrors">0</span>
+            <span class="stat-label">Absurd Errors Triggered</span>
+          </div>
+        </div>
+
+        <div class="zen-achievement" id="zenAchievement">
+          🏅 Achievement Unlocked: <strong>Digital Masochist Extraordinaire</strong>
+        </div>
+      </div>
+
+      <div class="zen-actions">
+        <button class="zen-btn zen-btn-primary" id="zenStayBtn">Bask in Serenity (Reset & Stay in Zen)</button>
+        <button class="zen-btn zen-btn-danger" id="zenReturnBtn">Return to the Nightmare 🔥</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
